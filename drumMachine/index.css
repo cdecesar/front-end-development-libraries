@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+  font-family: 'Aclonica', sans-serif;
+}
+
+#root {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #282c34;
+    font-family: 'Aclonica', sans-serif;
+}
+
+#drum-machine {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    border-radius: 3%;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-family: 'Aclonica', sans-serif;
+}
+
+#title {
+    color: #282c34;
+    font-size: 48px;
+    font-family: 'Aclonica', sans-serif;
+}
+
+#control {
+    display: grid;
+    margin: 3rem auto 3rem auto;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 70px 70px;
+}
+
+#change-power {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+#change-melody {
+    grid-column: 3 / 4;
+    grid-row: 1;
+}
+
+#display {
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+.power, .melody {
+    color: whitesmoke;
+}
+
+#change-volume {
+    grid-column: 1 / 4;
+    grid-row: 2;
+}
+
+.control-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#volume {
+    width: 50%;
+}
+
+#buttons {
+    display: grid;
+    margin: 0 0 2.5rem 0;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+}
+
+.drum-pad {
+    color: whitesmoke;
+    background-color: #282c34;
+}
+
+button:hover {
+    cursor: pointer;
+    font-weight: bold;
+    font-size:larger
+}
+
+label, #power, #melody {
+    color: #282c34;
+    font-size: 20px;
+}

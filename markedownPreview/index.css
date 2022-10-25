@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-div {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  vertical-align: baseline;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(233, 219, 94);
+}
+
+.edit {
+  width: 30%;
+  margin: 2rem auto;
+  border: 2px solid black;
+  background-color: rgb(243, 150, 44);
+}
+
+.pre {
+  width: 60%;
+  margin: 2rem auto;
+  border: 2px solid black;
+  background-color: rgb(233, 219, 94);
+}
+
+.head-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(243, 150, 44);
+}
+
+.title {
+  margin: 1rem auto 1rem 2rem;
+
+}
+
+.close {
+  color: black;
+  font-weight: bold;
+  margin: 1rem 2rem 1rem auto;
+}
+
+.div-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(233, 219, 94);
+
+}
+
+.text-editor {
+  width: 95%;
+  resize: none;
+  overflow: auto;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  outline: none;
+  min-height: 200px;
+  background-color: rgb(233, 219, 94);
+  border: none;
+}
+
+.text-editor-big {
+  height: 90vh;
+}
+
+#preview {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  background-color: rgb(233, 219, 94);
+  white-space: pre-wrap;
+}
+
+img {
+
+  margin: auto;
+  max-width: 50%;
+}

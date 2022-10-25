@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+  font-family: 'Poppins', sans-serif;
+}
+
+.backGround {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(182, 170, 170);
+}
+
+#title {
+    color: #282c34;
+    font-size: 48px;
+    margin-bottom: 2rem;
+}
+
+.calculator {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #282c34;
+}
+
+#display-div {
+    color: #282c34;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items:flex-end;
+    justify-content: right;
+    width: 90%;
+    margin: 1.5rem;
+    background-color: whitesmoke;
+}
+
+#display-value, #display {
+    height: 30px;
+    font-weight: bold;
+    margin: 0 2rem 0 auto;
+}
+
+#display-value {
+    font-size: 24px;
+    margin-top: 1rem;
+}
+
+#display {
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.input-button {
+    width: 120px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke;
+    outline: 1px solid #282c34;
+    border: none;
+    background-color:rgb(128, 121, 127);
+    font-family: 'Poppins', sans-serif;
+}
+
+#one {
+    grid-column: 1 / 2;
+    grid-row: 3;
+}
+
+#two {
+    grid-column: 2 / 3;
+    grid-row: 3;
+}
+
+#three {
+    grid-column: 3 / 4;
+    grid-row: 3;
+}
+
+#four {
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+#five {
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+
+#six {
+    grid-column: 3 / 4;
+    grid-row: 2;
+}
+
+#seven {
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+#eight {
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+#nine {
+    grid-column: 3 / 4;
+    grid-row: 1;
+}
+
+#zero {
+    grid-column: 2 / 3;
+    grid-row: 4;
+}
+
+#add {
+    grid-column: 1 / 2;
+    grid-row: 4;
+    background-color: rgb(104, 104, 114);
+}
+
+#subtract {
+    grid-column: 3 / 4;
+    grid-row: 4;
+    /*background-color: rgb(85, 85, 93);*/
+    background-color: rgb(104, 104, 114);
+}
+
+#multiply {
+    grid-column: 1 / 2;
+    grid-row: 5;
+    background-color: rgb(104, 104, 114);
+}
+
+#divide {
+    grid-column: 3 / 4;
+    grid-row: 5;
+    background-color: rgb(104, 104, 114);
+}
+
+#decimal {
+    grid-column: 2 / 3;
+    grid-row: 5;
+    background-color: rgb(104, 104, 114);
+}
+
+#equals {
+    grid-column: 1 / 2;
+    grid-row: 6;
+    background-color: rgb(33, 13, 188);
+}
+
+#clear {
+    width: 240px;
+    grid-column: 2 / 4;
+    grid-row: 6;
+    background-color: rgb(172, 15, 15);
+}
